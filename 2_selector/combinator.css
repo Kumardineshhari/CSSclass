@@ -1,0 +1,20 @@
+/* discendent selector */
+.container1 h1{
+    color: deeppink;
+}
+
+/* direct child selector */
+.container3 > h2{
+    color: darkblue;
+}
+
+
+/* adjacant sibiling selector */
+.container4 > #para1 + p {
+    color: brown;
+}
+
+/* general sibling  selector*/
+.container4 > #para1 ~ p{
+    color: darkviolet;
+}

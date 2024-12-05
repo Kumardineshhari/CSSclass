@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container1{
+    height:200px;
+    width: 300px;
+    background-color: coral;
+
+    /* border: 3px solid red; */
+
+    border-radius: 3px;
+    border-style: solid;
+    border-color: red;
+
+    margin: 20px;   
+    border-radius: 25px;
+    
+
+}
+
+.container2{
+    height: 200px;
+    width: 300px;
+    background-color: cadetblue;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color:darkorchid;
+
+}
+
+.container2{
+    text-align: center;
+}
+
+.container2 > h2{
+    text-transform: uppercase;
+}
+
+.container2 > p{
+    font-size: 20px;
+
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    background-color: aqua;
+
+    border-radius: 50%;
+    margin: 20px;
+}

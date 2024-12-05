@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background-color: blue;
+    justify-content: center;
+
+    border-radius: 50%;
+    transition: all 2s ease-in;
+   
+}
+
+.inner:hover{
+    
+    transform: translateX(100vw);
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+

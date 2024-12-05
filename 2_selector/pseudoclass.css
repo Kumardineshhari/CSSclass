@@ -1,0 +1,72 @@
+.container > button{
+    background-color: black;
+    color: white;
+}
+
+/* 1. hover */
+
+.container > button:hover{
+    background-color:yellow;
+    color: red;
+}
+
+.container > h1:hover{
+    color:darkcyan
+}
+
+/* 2. active */
+
+.container > button:active{
+    background-color:rgb(124, 224, 10);
+    color: maroon;
+}
+
+/* 3. first-of-type */
+
+.container2 > h1:first-of-type{
+    color:chartreuse
+}
+
+/* 4. last-of-type */
+
+.container2 > p:last-of-type{
+    color:darkmagenta
+}
+
+/* 5. first-child*/
+
+.container3 > h1:first-child{
+    color:indigo
+}
+
+/* it will not select the para bcz it is not the first-child h1 is there*/
+.container3 > p:first-child{
+    color: indigo;  
+}
+
+/* 6. last-child */
+
+/* it will not select the para bcz it is not the last-child button is there */
+.container3 > p:last-child{
+    color: hotpink;
+}
+
+.container3 > p:last-child{
+    color:brown
+}
+
+/* 7. nth child */
+
+/* odd number */
+/* .container4 > ul > li:nth-child(2n+1){
+    color:blue
+} */
+
+/* even number */
+.container4 > ul > li:nth-child(2n){
+    color:blue
+} 
+
+.container4 > a:visited{
+    color: aqua;
+}

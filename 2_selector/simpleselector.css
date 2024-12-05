@@ -1,0 +1,37 @@
+/* Universal Selector */
+/* *{
+    color: red;
+} */
+
+
+
+/* Tag name Selector */
+/* h1{
+    color:aqua
+} */
+
+
+
+/* id Selector */
+
+/* #p1{
+    color: blueviolet;
+} */
+
+/* class Selector */
+/* .heading1{
+    color: fuchsia;
+} */
+
+/* grouping tag */
+h1,h2,h3{
+    color: brown;
+}
+
+.heading1{
+    color: blue;
+}
+
+#p1,#p2{
+    color: blueviolet;
+}

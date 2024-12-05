@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.outer > .inner{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    
+
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 3s;
+
+    transition: all 2s ease-in 1s;
+}
+
+.outer > .inner:hover{
+    border-radius: 50%;
+    background-color: dimgrey;
+}
+

@@ -1,0 +1,36 @@
+/* 1. first-letter  */
+
+.container > p::first-letter{
+    font-size: 30px;
+    color:red
+}
+
+/* 2. first-link */
+.container > p::first-line{
+    background-color: tomato;
+}
+/* 3. selection */
+::selection{
+    background-color: cyan;
+    color: darkred;
+}
+
+/* 4.marker*/
+.container2 > ul > li:nth-child(2n)::marker{
+    color:red
+}
+
+.container2 > ul > li::marker{
+    color:darkblue
+}
+
+/* 5.Before*/
+.container2 > h1::before{
+    content: "Hello Makkale ";
+    color: lightcoral;
+}
+
+/* 6.After */
+.container2 > h1::after{
+    content: "😎🔥";
+}

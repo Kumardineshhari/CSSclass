@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background: linear-gradient(to right ,blue,rgb(204, 204, 240));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: linear-gradient(to right,yellow,red);
+
+    position: relative;
+}
+
+.container #img1{
+    width: 600px;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+}
+
+.container #img2{
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.container #img3{
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}

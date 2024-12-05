@@ -1,0 +1,22 @@
+.container1{
+    height: 300px;
+    width: 600px;
+    background-color: aqua;
+    border: 10px solid red;
+    /* padding */
+    padding: 10px 15px 20px 10px
+    ;
+}
+
+.container2{
+    height: 300px;
+    width: 600px;
+    background-color:gold;
+    border: 10px solid black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+

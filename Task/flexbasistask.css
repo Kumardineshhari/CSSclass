@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 70vh;
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+header > .left{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+header > .left > .button > button{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+header > .left > .button > button:hover{
+    background-color: rgb(2, 30, 90);
+    color: white;
+}
+
+header > .right{
+    margin: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+footer > .c1{
+    text-align: center;
+    padding: 10px;
+}
+
+footer > .c1:hover{
+    border: 1px solid black;
+    box-shadow: 5px 15px 5px 5px  rgb(56, 55, 55);
+}
+
+

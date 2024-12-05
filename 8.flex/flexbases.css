@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-basis: 50vh;
+    
+}
+
+header > .left{
+    background-color: green;
+    flex-basis: 20%;
+}
+
+header > .right{
+    background-color: brown;
+    flex-basis: 50%;
+}
+
+header > .middle{
+    background-color: chartreuse;
+    flex-basis: 30%;
+}

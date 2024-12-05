@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer > .img1{
+    height: 100vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGjj-2th_C6dpYCbIY_NnvGWp9c8a7AxQALg&s");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+
+    background-attachment: fixed;
+    
+}
+::-webkit-scrollbar{    
+    display: none;
+    
+}
+
+
+
+.outer > .img2{
+    height: 100vh;
+    background-image: url("https://w0.peakpx.com/wallpaper/351/102/HD-wallpaper-forest-waterfall-pretty-rocks-fall-fores-lovely-beautiful-trees-stones-green-serenity-waterfall-nature.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+
+    background-attachment: fixed;
+    
+}
+.outer > .img3{
+    height: 100vh;
+    background-image: url("https://www.worldatlas.com/upload/7d/db/c3/shutterstock-1558058690.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+
+    background-attachment: fixed;
+    
+}
+.outer > .img4{
+    height: 100vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa5J27k4jagsSz_vBD1Qdca-Q6qwwO0oLKFA&s");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+
+    background-attachment: fixed;
+    
+}
